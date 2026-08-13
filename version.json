@@ -64,6 +64,7 @@
     "辽宁",
     "重庆",
     "陕西",
+    "青海",
     "黑龙江"
   ],
   "files": {
@@ -83,9 +84,9 @@
       "bytes": 272447
     },
     "admission/北京.csv": {
-      "sha256": "44b8667009c54e3b7c95f6aa10ebe1fe349bdd3a747bae9cb9854ed4b53077cd",
-      "rows": 1749,
-      "bytes": 164508
+      "sha256": "85269276857e8710f9f8de15758418c1b4089f8a3dea63854faf78d19520999b",
+      "rows": 3449,
+      "bytes": 335836
     },
     "admission/吉林.csv": {
       "sha256": "3927580ef6c1c5ad4a163cea85510225667138eae547c67db2b9f12e7ce40da5",
@@ -158,9 +159,9 @@
       "bytes": 322255
     },
     "admission/浙江.csv": {
-      "sha256": "8b6ccf9876161df346c93769dba24a70c0c9eeafc55c50cac4fa6e6f3040d1ad",
-      "rows": 9502,
-      "bytes": 837414
+      "sha256": "6ef2fd75b5bdb4ffa7187eff5eb60f8d183853de23199751137e9a684bccc76a",
+      "rows": 23998,
+      "bytes": 2172159
     },
     "admission/海南.csv": {
       "sha256": "a33c4de5603f9a1075bb59d6d7e238051bf99b398c99ad4a729d7d650c286c22",
@@ -313,9 +314,9 @@
       "bytes": 119816
     },
     "rank_tables/浙江.csv": {
-      "sha256": "90124fdfcfda9a3dc7b4124418789e142beea7f5a84edbbc96c174b01cfa2c55",
-      "rows": 1611,
-      "bytes": 51038
+      "sha256": "941393f37fd0103f1d9f7ca24fe7452ea012739045442738a7d97e0ce2ec0310",
+      "rows": 1185,
+      "bytes": 38015
     },
     "rank_tables/海南.csv": {
       "sha256": "78d7c62976c0e36927c0bf913ef420ab6e20b29525fad8f03db405663e113b22",
@@ -361,6 +362,11 @@
       "sha256": "accab583cc77da3fefb21b6af331d9f3735275d0ea7b9082e55e91e4d9fff02e",
       "rows": 4952,
       "bytes": 178501
+    },
+    "rank_tables/青海.csv": {
+      "sha256": "5535dc224553bbd29a9982f1c819f31b13d2c00938e2a81fabaef72691f4d580",
+      "rows": 6008,
+      "bytes": 191328
     },
     "rank_tables/黑龙江.csv": {
       "sha256": "2d78ad97b4b086566f144c55413174230c46e59ed6d41fd2b569460c65eb41ed",
