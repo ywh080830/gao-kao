@@ -1,0 +1,339 @@
+{
+  "generated": "2026-08-13",
+  "description": "高考录取投档线 + 一分一段表 + 院校库（覆盖多省多年度）",
+  "total_provinces": 30,
+  "provinces": [
+    "上海",
+    "云南",
+    "内蒙",
+    "北京",
+    "吉林",
+    "四川",
+    "天津",
+    "宁夏",
+    "安徽",
+    "山东",
+    "山西",
+    "广东",
+    "广西",
+    "新疆",
+    "江苏",
+    "江西",
+    "河北",
+    "河南",
+    "浙江",
+    "海南",
+    "湖北",
+    "湖南",
+    "甘肃",
+    "福建",
+    "西藏",
+    "贵州",
+    "辽宁",
+    "重庆",
+    "陕西",
+    "黑龙江"
+  ],
+  "files": {
+    "admission/北京.csv": {
+      "sha256": "44b8667009c54e3b7c95f6aa10ebe1fe349bdd3a747bae9cb9854ed4b53077cd",
+      "rows": 1749,
+      "bytes": 164508
+    },
+    "admission/山东.csv": {
+      "sha256": "4366aac9e462890a31ae4c3d6a48533187403e81e718a2e031fd12948f206d92",
+      "rows": 119,
+      "bytes": 8741
+    },
+    "admission/浙江.csv": {
+      "sha256": "8b6ccf9876161df346c93769dba24a70c0c9eeafc55c50cac4fa6e6f3040d1ad",
+      "rows": 9502,
+      "bytes": 837414
+    },
+    "admission/河南.csv": {
+      "sha256": "23b2f860e7009a73b4e5432a567f71a0892d0dabc316a942a0f39f4a716e04f0",
+      "rows": 4592,
+      "bytes": 322255
+    },
+    "admission/广东.csv": {
+      "sha256": "63d7e0ba34fd5acdbe931ae85f0a82754cc96aa860be73af4aaaf7952499d6ed",
+      "rows": 1484,
+      "bytes": 115564
+    },
+    "admission/江苏.csv": {
+      "sha256": "81218e9a2c50244896acf5c3b15e85906642ec98467c6c7c62b225f4fde0e33d",
+      "rows": 10800,
+      "bytes": 859073
+    },
+    "admission/四川.csv": {
+      "sha256": "85ac0a3651cf0c9c2fef2d6a3bd55d36fa8c3458494cdc36fa18e58ba7a82c6e",
+      "rows": 17453,
+      "bytes": 1341079
+    },
+    "admission/湖北.csv": {
+      "sha256": "d98a4076a4319b3ed886219915bca4a3880b38f7130dbbd695d90a0e203ebcc7",
+      "rows": 262,
+      "bytes": 18720
+    },
+    "admission/湖南.csv": {
+      "sha256": "4d1cbf7d52fa1daaa1c62310c5374b52977be7b585de365dce5aa4449e9e1a0f",
+      "rows": 9492,
+      "bytes": 760584
+    },
+    "admission/河北.csv": {
+      "sha256": "78a7a7c0332d460e89b13aa2531674fe90000e92e0cb5743ac17ccbcc8286507",
+      "rows": 5081,
+      "bytes": 390295
+    },
+    "admission/陕西.csv": {
+      "sha256": "b8b8cc0f70401016d88a71f760aabae4dac67a87b4e526fc25af6c1174f3146e",
+      "rows": 4787,
+      "bytes": 356459
+    },
+    "admission/安徽.csv": {
+      "sha256": "9d4d9fb542cab268a5036d7a0545740ba53677f3c26b4483dffacdb255f35546",
+      "rows": 10596,
+      "bytes": 819379
+    },
+    "admission/重庆.csv": {
+      "sha256": "94826732ea5cfe9abe5a9c7fad804bad1ef397fde56cd35f549d57e9c299f951",
+      "rows": 8732,
+      "bytes": 653443
+    },
+    "admission/福建.csv": {
+      "sha256": "57c323667abab032dc8def90bac627d912fd890c6f80c09870454a3e8d3f1e8b",
+      "rows": 9007,
+      "bytes": 676138
+    },
+    "admission/甘肃.csv": {
+      "sha256": "a09c58d49f2a3cdacfcd4c2241f822bff4032272c5ee54986cfbc0c2e2b7ae65",
+      "rows": 4846,
+      "bytes": 407228
+    },
+    "admission/广西.csv": {
+      "sha256": "070fa11bcacd9d49fc4179b9cac1e38b888850ef2ca81eb463b3fe87c86a3ea3",
+      "rows": 9128,
+      "bytes": 693889
+    },
+    "admission/贵州.csv": {
+      "sha256": "5b18cecb062bb16fedc031f29b1ed6f80ff393aa924979e9466907895eb53d7b",
+      "rows": 10710,
+      "bytes": 802607
+    },
+    "admission/海南.csv": {
+      "sha256": "a33c4de5603f9a1075bb59d6d7e238051bf99b398c99ad4a729d7d650c286c22",
+      "rows": 3665,
+      "bytes": 261947
+    },
+    "admission/黑龙江.csv": {
+      "sha256": "bde77e524debbb807abfc076fb205c5146d713e4afd8df496a5df3259c0ca729",
+      "rows": 2677,
+      "bytes": 192947
+    },
+    "admission/江西.csv": {
+      "sha256": "d212967055b076c86b37d317a4282e3f9f741a77d41e964eb1400e2262c4b117",
+      "rows": 7465,
+      "bytes": 460180
+    },
+    "admission/吉林.csv": {
+      "sha256": "3927580ef6c1c5ad4a163cea85510225667138eae547c67db2b9f12e7ce40da5",
+      "rows": 6272,
+      "bytes": 480410
+    },
+    "admission/辽宁.csv": {
+      "sha256": "91d13fa2b790049b4279ff781bf98f28662d78a077ad59fd414788e07de7b7a2",
+      "rows": 2619,
+      "bytes": 193794
+    },
+    "admission/内蒙.csv": {
+      "sha256": "2ea31851a08dc8ad4b89c2d004e56781f630abc94cb536c1484feba064b93309",
+      "rows": 3723,
+      "bytes": 272447
+    },
+    "admission/宁夏.csv": {
+      "sha256": "0c83f15064339ee5079efd5f3ca52988684b4cefb5f0907846e995cf71ba9368",
+      "rows": 4956,
+      "bytes": 374035
+    },
+    "admission/上海.csv": {
+      "sha256": "5c8e2b9c71f273551b524fb5f5e9e8eefa975125c08c2f867c03beabb3adb588",
+      "rows": 690,
+      "bytes": 46725
+    },
+    "admission/山西.csv": {
+      "sha256": "f617a4c9ee28f8d0a665489e989e1ce104c454a9bc1bdbf558553cef403b0cba",
+      "rows": 48,
+      "bytes": 3175
+    },
+    "admission/天津.csv": {
+      "sha256": "f24748f046d4121be258bdaa6af247e350a3944fed7e79973292dd9ada52c1fc",
+      "rows": 815,
+      "bytes": 62755
+    },
+    "admission/新疆.csv": {
+      "sha256": "0b8c60192da95d22b75b67f7ab59cadf9a11232f508033968e7db4ef577dfde2",
+      "rows": 6516,
+      "bytes": 476340
+    },
+    "admission/西藏.csv": {
+      "sha256": "5f32ff83cd3d3c785a63a516530f513ca172b9d7047e250b5d757029d87868a2",
+      "rows": 671,
+      "bytes": 45476
+    },
+    "admission/云南.csv": {
+      "sha256": "36da60d3e3978b31a974a33b063b62f6348284665b751dd937d4671611b029a9",
+      "rows": 3333,
+      "bytes": 199170
+    },
+    "rank_tables/北京.csv": {
+      "sha256": "196b763d426a4de5dbb3171911d11b84d812561334d39c153fbbc9489f577140",
+      "rows": 1966,
+      "bytes": 60363
+    },
+    "rank_tables/山东.csv": {
+      "sha256": "ab98e499f11fa2be78a5e3401d58fafe689af3cfd03a39ece6a52139ad8014a5",
+      "rows": 661,
+      "bytes": 20814
+    },
+    "rank_tables/浙江.csv": {
+      "sha256": "90124fdfcfda9a3dc7b4124418789e142beea7f5a84edbbc96c174b01cfa2c55",
+      "rows": 1611,
+      "bytes": 51038
+    },
+    "rank_tables/河南.csv": {
+      "sha256": "81590587ce0ce3a7b4d1fec42e6acbe2825179fa8f6af9b3bb5c461e7bc343a6",
+      "rows": 3801,
+      "bytes": 119816
+    },
+    "rank_tables/广东.csv": {
+      "sha256": "38dc69cab1cbe6f39cbdb5753ae7b7d4d2752abd4a86ce87271aaa3d13bfc0f1",
+      "rows": 4680,
+      "bytes": 153662
+    },
+    "rank_tables/江苏.csv": {
+      "sha256": "ee02caaded3e4b0e982643905c7141d6e8f199eb44b1d9226e58d0bfa8d29a2f",
+      "rows": 2215,
+      "bytes": 73343
+    },
+    "rank_tables/四川.csv": {
+      "sha256": "56455b00613c6d14587c3356e1c8bb41e4c1e21f649ea95e7916c7eb7cf68e12",
+      "rows": 3465,
+      "bytes": 100243
+    },
+    "rank_tables/湖北.csv": {
+      "sha256": "d80cc1921f2714ab40ac7538390b46b31451699f57c3254d523759fbc144939f",
+      "rows": 3731,
+      "bytes": 108906
+    },
+    "rank_tables/湖南.csv": {
+      "sha256": "f76c7dbcb345c687581e572405826ea3d7e524040e439b4df84ceb1b088db3df",
+      "rows": 3463,
+      "bytes": 115539
+    },
+    "rank_tables/河北.csv": {
+      "sha256": "85d3437f87a16ec970c86269ca45badf26098590281e5ee2169daf5b4f78a030",
+      "rows": 3476,
+      "bytes": 100711
+    },
+    "rank_tables/陕西.csv": {
+      "sha256": "accab583cc77da3fefb21b6af331d9f3735275d0ea7b9082e55e91e4d9fff02e",
+      "rows": 4952,
+      "bytes": 178501
+    },
+    "rank_tables/安徽.csv": {
+      "sha256": "dcb53c9e16e83138d06c8ec6c180a3ff17f30d79aeba0b321046cbd3168f6a50",
+      "rows": 2887,
+      "bytes": 82446
+    },
+    "rank_tables/重庆.csv": {
+      "sha256": "5a30fc86040bd74b8288551ae7563d6024c056ebf9f2052475ee832c3bb30e66",
+      "rows": 2933,
+      "bytes": 96632
+    },
+    "rank_tables/福建.csv": {
+      "sha256": "9d913d42f7ea5950f028df3a7b4c0961e8f29731d29bdfcfa332bd70f3a2dca3",
+      "rows": 1899,
+      "bytes": 62509
+    },
+    "rank_tables/甘肃.csv": {
+      "sha256": "e583464fdb1308608c2ddd7eb5f5fce9e30a1e5a1e7c8ac6fbeb2a12d26c9b19",
+      "rows": 3948,
+      "bytes": 110868
+    },
+    "rank_tables/广西.csv": {
+      "sha256": "dff17ae09d975b2bca22890680ae0ee0694bec74302f27d99511dee45e65d010",
+      "rows": 2917,
+      "bytes": 82397
+    },
+    "rank_tables/贵州.csv": {
+      "sha256": "6ecfa286a2ff9c6988b951adaf1f19bc22b8a03457bbcb5c1fa091c7a9712fd2",
+      "rows": 4058,
+      "bytes": 129903
+    },
+    "rank_tables/海南.csv": {
+      "sha256": "78d7c62976c0e36927c0bf913ef420ab6e20b29525fad8f03db405663e113b22",
+      "rows": 556,
+      "bytes": 16441
+    },
+    "rank_tables/黑龙江.csv": {
+      "sha256": "2d78ad97b4b086566f144c55413174230c46e59ed6d41fd2b569460c65eb41ed",
+      "rows": 3244,
+      "bytes": 100816
+    },
+    "rank_tables/江西.csv": {
+      "sha256": "eb4055c674346c9d3f271f0a2a60d2e3faf2c40b2431f1ef1f5a0226a718748a",
+      "rows": 3438,
+      "bytes": 111179
+    },
+    "rank_tables/吉林.csv": {
+      "sha256": "50fac7c96d44c9c4adbc520651a434fef6787828b76ecb70e1864e74f77e0bd5",
+      "rows": 3985,
+      "bytes": 111127
+    },
+    "rank_tables/辽宁.csv": {
+      "sha256": "7e4253267f51631b8c42c668dae3dee207a427c3f6fa67a591fa553e3686bea9",
+      "rows": 3247,
+      "bytes": 106796
+    },
+    "rank_tables/内蒙.csv": {
+      "sha256": "3eba4fec5b744193f36a9bcf85fd903f534c1b8d5d5afb45d915382eae0a39b6",
+      "rows": 2694,
+      "bytes": 75657
+    },
+    "rank_tables/宁夏.csv": {
+      "sha256": "25747e4165317d83e6d0897af95340939962c0887c50809d1195deb208a72501",
+      "rows": 2844,
+      "bytes": 86650
+    },
+    "rank_tables/上海.csv": {
+      "sha256": "b6b8b8d3616a312ffad025da01db397942fbfdb2be33b6f5f5d15a85904602d9",
+      "rows": 1177,
+      "bytes": 30412
+    },
+    "rank_tables/山西.csv": {
+      "sha256": "70bc8a13ffe415f5e68240230710f0c20765e4735bc7d1ebfc7d5983a8b8024a",
+      "rows": 1511,
+      "bytes": 38333
+    },
+    "rank_tables/天津.csv": {
+      "sha256": "120ec4b8346cbbff9c6fe62c908619a1692ca0e80a5198aea68a7573b67dddab",
+      "rows": 1544,
+      "bytes": 45975
+    },
+    "rank_tables/新疆.csv": {
+      "sha256": "3f90d76b72325fce8c9b8ba9b9f293343def0e59e59cdc496f6533bdcdda8d9f",
+      "rows": 1736,
+      "bytes": 51038
+    },
+    "rank_tables/云南.csv": {
+      "sha256": "9948af4dd4f005cf85626db6133040018ea2d9579af85e15cd0912fa7ed9dbcb",
+      "rows": 2917,
+      "bytes": 82920
+    },
+    "schools.csv": {
+      "sha256": "9ebdaeb038b69eae8b9cb01b6805c0e27bc9213b5d210356bea8841e1912e420",
+      "rows": 2603,
+      "bytes": 126956
+    }
+  }
+}
