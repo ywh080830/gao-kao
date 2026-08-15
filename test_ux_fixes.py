@@ -1,3 +1,6 @@
+import loader  # 加密仓库：先安装解密加载器
+loader.install()
+
 # -*- coding: utf-8 -*-
 """用户体验修复回归测试：无显示(offscreen)加载真实数据库，逐项验证修复。"""
 import os

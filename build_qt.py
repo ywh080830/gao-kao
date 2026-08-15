@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""打包脚本（build_qt.py）。
+"""打包脚本（build_qt.py，加密仓库版）。
 
-固定安全配置：所有 TMP 走 D 盘；还原沙箱安全删除钩子（否则 PyInstaller 清理临时目录失败）；
-调用 PyInstaller 依据 build/gk_python.spec 产出单文件 EXE。
+固定安全配置：所有 TMP 走 D 盘；还原沙箱安全删除钩子；先安装解密加载器
+（让 PyInstaller 在分析期能找到 app 各模块），再依据 build/gk_python.spec
+产出单文件 EXE。加密源码随 datas 打包，运行时由 loader 解密。
 """
 import os
 import sys
@@ -25,6 +26,10 @@ shutil.rmtree = sitecustomize._orig_shutil_rmtree
 pathlib.Path.unlink = sitecustomize._orig_path_unlink
 pathlib.Path.rmdir = sitecustomize._orig_path_rmdir
 print("[build_qt] safe-delete hook neutralized", flush=True)
+
+# 安装解密加载器，使分析期 `import app` 可用
+import loader  # noqa: E402
+loader.install()
 
 import PyInstaller.__main__  # noqa: E402
 sys.argv[0] = "pyinstaller"

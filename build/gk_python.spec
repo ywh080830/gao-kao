@@ -8,18 +8,25 @@
 import os
 from pathlib import Path
 
-PROJECT_ROOT = Path(r"D:\34\高考\gk_python").resolve()
+PROJECT_ROOT = Path(__file__).resolve().parent.parent  # enc_stage/
 ICON_PATH = Path(r"C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\PyInstaller\bootloader\images\icon-windowed.ico")
 RUNTIME_TMP = r"D:\tmp_pyinst"
 os.makedirs(RUNTIME_TMP, exist_ok=True)
 
 # 云端数据运行时下载到 userdata/gk_local.db，EXE 不打包任何本地数据库
+# 加密仓库：把全部 *.py.enc 作为 datas 随包分发，运行时由 loader 解密
 datas = []
+for _dp, _dirs, _files in os.walk(PROJECT_ROOT):
+    for _fn in _files:
+        if _fn.endswith(".py.enc"):
+            _full = os.path.join(_dp, _fn)
+            datas.append((_full, os.path.relpath(_dp, PROJECT_ROOT)))
 
 hiddenimports = [
     "app", "app.config", "app.models", "app.state", "app.db", "app.rank_table",
     "app.recommender", "app.importer", "app.cloud",
     "app.ui", "app.ui.theme", "app.ui.main_window", "app.ui.panels",
+    "loader",
 ]
 
 a = Analysis(

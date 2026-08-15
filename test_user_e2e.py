@@ -1,3 +1,6 @@
+import loader  # 加密仓库：先安装解密加载器
+loader.install()
+
 # -*- coding: utf-8 -*-
 """正常用户全流程端到端测试（无显示 offscreen 环境）。
 
