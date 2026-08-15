@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+userdata/
+build_out*/
+dist*/
+*.db
+*.log
